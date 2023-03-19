@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 8em;
+	&-nav {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	&__logo {
+		margin-right: 30em;
+	}
+}
+@import './buttons.scss';
